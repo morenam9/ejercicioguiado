@@ -1,0 +1,499 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    /* Encabezado */
+    /* hsl 200, 80%, 20% color de fuente / rgb 12 183 242  degradado del hover y active */
+    
+    .contenedor {
+        background-color: white;
+    }
+    
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        min-width: 390px;
+    }
+    /* Porque no se puede aplicar el estilo a la clase video-banner y si a la etiqueta video */
+    /* Banner - video */
+    
+    .video-banner>video {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    /* logo */
+    
+    .logo>img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    /* Barra de navegacion */
+    
+    .contenedor-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 15px;
+        margin: 25px auto;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .nav-items {
+        color: hsl(200, 80%, 20%);
+        margin: 0 5px;
+        padding: 5px 40px;
+        font-weight: 850;
+        text-decoration: none;
+    }
+    
+    a:active {
+        color: rgb(12, 183, 242);
+    }
+    
+    a:first-child {
+        color: rgb(12, 183, 242);
+    }
+    /* Imagen separadora */
+    
+    .img-separador {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        min-width: 390px;
+    }
+    
+    .img-separador img {
+        width: 80%;
+    }
+    /* Parrafos */
+    
+    .contenedor-parrafos {
+        width: 90% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 25px;
+        min-width: 390px;
+    }
+    
+    .contenedor-titulo {
+        font-size: 40px;
+        font-weight: bolder;
+        color: hsl(200, 80%, 20%);
+        margin: 20px 0;
+    }
+    
+    .contenedor-titulo {
+        font-size: 25px;
+    }
+    
+    .contenedor-titulo span {
+        font-weight: bold;
+    }
+    
+    .contenedor-parrafos p {
+        margin: 5px 25px;
+    }
+    
+    p span {
+        font-weight: bold;
+    }
+    
+    .contenedor-parrafo-azul {
+        font-size: 20px;
+        color: hsl(200, 80%, 20%);
+    }
+    
+    .contenedor-parrafo-gris {
+        font-size: 20px;
+        font-style: italic;
+    }
+    /* Video descriptivo */
+    
+    .video-descriptivo {
+        background-color: rgba(226, 223, 223, 0.5);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        min-width: 390px;
+    }
+    
+    .video-descriptivo>iframe {
+        margin: 0 auto;
+        padding: 25PX;
+    }
+    /* Caricatura gimnasta */
+    
+    .contenedor-caricatura-gimnasta {
+        width: 90% auto;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        min-width: 390px;
+    }
+    
+    .contenedor-caricatura-gimnasta img {
+        width: 450px;
+    }
+    
+    .contenedor-caricatura-gimnasta p {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    /* Seccion img contenedor*/
+    
+    .imagen-contenedor {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        margin-top: 50px;
+        gap: 10px;
+    }
+    
+    .contenedor-imagen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        gap: 10px;
+        margin: 0 auto;
+        width: 300px;
+        height: 180px;
+    }
+    
+    .contenedor-ejercicio-title {
+        font-weight: 900;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        text-align: center;
+        margin: 15px 5px;
+    }
+    
+    .contenedor-ejercicio-parrafo {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .imagen-contenedor-ejercicio {
+        width: 400px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    
+    .imagen-contenedor-ejercicio img {
+        width: 400px;
+        height: 200px;
+    }
+    /* Seccion terraza */
+    
+    .contenedor-terraza {
+        width: 90%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    
+    .contenedor-terraza img {
+        width: 500px;
+    }
+    
+    .terraza__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        /*espaciado entre celdas-boxs*/
+        padding: 30px;
+        margin-left: 80px;
+    }
+    
+    .title-terraza {
+        font-weight: 900;
+    }
+    
+    .terraza__formulario p:first-child {
+        font-size: 20px;
+    }
+    
+    .terraza__formulario p:nth-child(2) {
+        color: rgb(150, 152, 154);
+        font-size: 12px;
+    }
+    
+    .terraza__formulario p:nth-child(4) {
+        color: rgb(150, 152, 154);
+        font-size: 12px;
+    }
+    
+    .terraza__formulario span {
+        color: hsl(200, 80%, 20%);
+        font-weight: bold;
+    }
+    
+    .terraza__formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .input {
+        background-color: rgba(226, 223, 223, 0.5);
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 15px;
+        border: 0;
+    }
+    
+    .terraza__formulario button {
+        color: white;
+        font-size: 20px;
+        background-color: hsl(195, 100%, 75%);
+        height: 40px;
+        border-radius: 5px;
+        border: 0;
+    }
+    /* Seccion Compatimos Experiencia - Testimonio Alexis*/
+    
+    .contenedor-testimonio-alexis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 50px;
+        background-color: rgba(226, 223, 223, 0.5);
+    }
+    
+    .testimonio-alexis-cita {
+        width: 90% auto;
+        height: 200px;
+        font-size: 20px;
+        font-style: italic;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-left: 3px solid rgb(12, 183, 242);
+        margin: 0 5px;
+    }
+    
+    .testimonio-alexis-cita span {
+        color: rgb(12, 183, 242);
+        font-weight: bold;
+    }
+    /* Seccion ancla-instagram */
+    
+    .ancla-instagram {
+        padding: 50px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .ancla-instagram span {
+        color: hsl(200, 80%, 20%);
+    }
+    
+    .ancla-instagram a {
+        color: hsl(200, 80%, 20%);
+        text-decoration: none;
+    }
+    /* Seccion contenido-instagram */
+    
+    .contenido-instagram {
+        width: 90% auto;
+    }
+    
+    .logo-instagram {
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo-instagram i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        background-color: rgb(150, 152, 154);
+        border-radius: 50%;
+    }
+    
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 60px;
+        width: 80% auto;
+    }
+    
+    .galeria img {
+        width: 300px;
+        height: 330px;
+    }
+    
+    .galeria .icon-clon1 {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 240px;
+        font-size: 20px;
+        color: rgb(150, 152, 154);
+    }
+    
+    .galeria .icon-clon2 {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -500px;
+        font-size: 20px;
+        color: rgb(150, 152, 154);
+    }
+    
+    .galeria .icon-clon3 {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 1130px;
+        font-size: 20px;
+        color: rgb(150, 152, 154);
+    }
+    
+    .galeria .icon-clon4 {
+        position: absolute;
+        margin-top: 405px;
+        margin-left: -650px;
+        font-size: 20px;
+        color: rgb(150, 152, 154);
+    }
+    
+    .galeria .icon-play {
+        position: absolute;
+        margin-top: 500px;
+        font-size: 60px;
+        color: white;
+        color: rgb(150, 152, 154);
+    }
+    /* Seccion contenido-cita */
+    
+    .contenedor-cita {
+        width: 90% auto;
+        height: 200px;
+        margin: 70px 70px 70px 150px;
+        color: hsl(200, 80%, 20%);
+        padding: 30px 0;
+        font-size: 25px;
+        font-style: italic;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-left: 3px solid rgb(12, 183, 242);
+    }
+    /* Seccion contenido-logo-instagram-youtube */
+    
+    .contenedor-logo-instagram-youtube {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80% auto;
+        margin: 50px 0 100px 0;
+    }
+    
+    .contenedor-logo-instagram-youtube img {
+        width: 100px;
+    }
+    /* Seccion contenido-footer */
+    
+    .contenedor-footer {
+        margin: 20px auto;
+        width: 90%;
+        height: 50px;
+        background-color: hsl(200, 80%, 20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenedor-footer a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+    }
+    
+    .contenedor-footer a:nth-child(1)::after {
+        content: "  | ";
+        margin: 0 25px;
+    }
+    
+    .contenedor-footer a:nth-child(2)::after {
+        content: "  | ";
+        margin: 0 25px;
+    }
+    
+    .contenedor-footer a:nth-child(3)::after {
+        content: "  | ";
+        margin: 0 25px;
+    }
+    /* Seccion boton-circular */
+    
+    .boton-inicio {
+        background-color: hsl(200, 80%, 20%);
+        border-radius: 50%;
+        font-size: 30px;
+        width: 50px;
+        margin-left: 92%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .boton-inicio .icon-up {
+        color: white;
+    }
